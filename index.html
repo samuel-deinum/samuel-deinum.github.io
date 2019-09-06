@@ -1,1 +1,374 @@
-<h1>Hello World</h1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+    <title>Deinum Sam</title>
+    <style>
+      header {
+        background: url(img/profile.jpg);
+        background-size: cover;
+        background-position: right;
+        min-height: 700px;
+      }
+      @media screen and (max-width: 670px) {
+        header {
+          min-height: 500px;
+        }
+      }
+      .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+    .parallax-container{
+      height: 300px;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="nav-wrapper transparent">
+        <div class="container">
+          <a class="brand-logo left hide-on-med-and-down" href="mailto:sam.c.deinum@gmail.com">sam.c.deinum@gmail.com</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#frontend">Front End</a></li>
+            <li><a href="#backend">Back End</a></li>
+            <li><a href="#contact">Connect</a></li>
+          </ul>
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+              <li><a href="#featured">Featured</a></li>
+              <li><a href="#frontend">Front End</a></li>
+              <li><a href="#backend">Back End</a></li>
+              <li><a href="#contact">Connect</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container white-text">
+        
+          <div class="row">
+            <div class="col s12">
+                <h2>Hello There!</h3>
+            </div>
+            <div class="col s12 m6">        
+              <p >
+                I'm Sam. I am an over achieving problem solver who happens to code. I hope you enjoy the projects you see.
+                Shoot me an email if you would like to connect. 
+              </p>
+            </div>
+          </div>
+
+      </div>
+    </header>
+    
+    <div class="container" style="margin-top: 30px">
+        <h1 class="center" id="featured">Featured Projects</h1>
+        <div class="row">
+          <div class="col s12 l6">
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light ">
+                <img class="activator responsive-img" src="img/refugio.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Refugio<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Refugio<i class="material-icons right">close</i></span>
+                    <p>Connecting refugees with shelters using React, Redux, and Firebase.</p>
+                </div>
+                <div class="card-action"><a href="https://github.com/samuel-deinum/refuge" target="_blank">Github</a><a href="https://gracious-neumann-9346f8.netlify.com" target="_blank">Web</a></div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div class="card sticky-action ">
+                <div class="card-image waves-effect waves-block waves-light ">
+                <img class="activator responsive-img" src="img/dollaraday.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Dollar a day<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Dollar a day Calculator<i class="material-icons right">close</i></span>
+                    <p>Making it easy to plan a seven dollar grocery budget for the non-profit campagn Dollar a Day, created with Javascipt.</p>
+                </div>
+                <div class="card-action"><a href="https://github.com/samuel-deinum/Dollar-a-Day-Budget-Tool" target="_blank">Github</a><a href="https://www.dollaraday.global/food" target="_blank">Web</a></div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="parallax-container" id="frontend">
+        <div class="parallax">
+          <img src="img/front-end.jpg" alt="cat" class="responsive-img" />
+        </div>
+        <h1 class="white-text center" style="margin-top: 110px">Front End</h1>
+    </div>
+      
+      <div class="container" style="margin-top: 30px">
+        <div class="row">
+          <div class="col s12 l6">
+            <div class="card sticky-action">
+              <div class="card-image waves-effect waves-block waves-light ">
+                <img
+                  class="activator responsive-img"
+                  src="img/whiteboard.jpg"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >WhiteBoard<i class="material-icons right">more_vert</i></span
+                >
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >WhiteBoard<i class="material-icons right">close</i></span
+                >
+                <p>A Digital WhiteBoard used to teach math, built with React</p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/samuel-deinum/whiteboard" target="_blank"
+                  >Github</a
+                ><a href="https://sad-bassi-087a26.netlify.com/" target="_blank">Web</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col s12 l6">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light ">
+                <img
+                  class="activator responsive-img"
+                  src="img/mathworld.jpg"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >Math World<i class="material-icons right">more_vert</i></span
+                >
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >Math World<i class="material-icons right">close</i></span
+                >
+                <p>
+                  Building off the WhiteBoard Component, this is a prototype of
+                  interactive lessons being created online.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/samuel-deinum/math" target="_blank"
+                  >Github</a
+                ><a href="https://hungry-pike-e15ab5.netlify.com/" target="_blank"
+                  >Web</a
+                >
+              </div>
+            </div>
+          </div>  
+
+          <div class="col s12 l6">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light ">
+                <img
+                  class="activator responsive-img"
+                  src="img/go.jpg"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >GO<i class="material-icons right">more_vert</i></span
+                >
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >GO<i class="material-icons right">close</i></span
+                >
+                <p>
+                  Simple game of Go, built using React. Be sure to check the recursive
+                  algorithm in the check.js file, which determines if enemies are
+                  captured or not
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/samuel-deinum/go" target="_blank">Github</a
+                ><a href="https://awesome-mestorf-65a75f.netlify.com/" target="_blank"
+                  >Web</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 l6">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light ">
+                <img
+                  class="activator responsive-img"
+                  src="img/front-end-assessment.jpg"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >Front End Assessment<i class="material-icons right"
+                    >more_vert</i
+                  ></span
+                >
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >Front End Assessment<i class="material-icons right">close</i></span
+                >
+                <p>
+                  This project was completed as an online assesment for a recruiting
+                  agency, built with React and Axios
+                </p>
+              </div>
+              <div class="card-action">
+                <a
+                  href="https://github.com/samuel-deinum/front-end-assessment"
+                  target="_blank"
+                  >Github</a
+                ><a href="https://hungry-hugle-ac1130.netlify.com/" target="_blank"
+                  >Web</a
+                >
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      
+      <div class="parallax-container" id="backend">
+        <div class="parallax">
+          <img src="img/back-end.jpg" alt="cat" class="responsive-img" />
+        </div>
+        <h1 class="white-text center" style="margin-top: 110px">Back End</h1>
+      </div>
+      
+      <div class="container" style="margin-top: 30px">
+        <div class="row">
+
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">SDFSS</span>
+                  <p style="height: 100px">
+                    The Smart Duel Fuel Switching System was created for my 2019 Capstone Project at Ryerson University. 
+                    Using time of use electricity prices and the curent weather temperature, the program determines the 
+                    best heating system to use at a particular time.  
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a 
+                    href="https://github.com/samuel-deinum/sdfss"
+                    target="_blank">GITHUB
+                </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">Report Card</span>
+                  <p style="height: 100px">
+                    Created for a recruiting company's assessment, this Python program grabs infomation from 
+                    csv files and creates an easy to read report card. 
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/samuel-deinum/report-card" target="_blank">GITHUB</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-content">
+                    <span class="card-title">Blog Search</span>
+                    <p style="height: 100px">
+                      Created for a recruiting company's assessment, this Python Flask provides filtered blog
+                      post based on user preferences. 
+                    </p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://github.com/samuel-deinum/search-api" target="_blank">GITHUB</a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+      
+
+
+      <div class="container section" style="height: 150px" id="contact">
+        <div class="row">
+          <div class="col s12 offset-s0 l6 offset-l3">
+              <div class="card #18ffff cyan accent-2">
+                  <div class="card-title center">Like what you see? </div>
+                  <div class="card-content center">
+                    Send an email to <a href="mailto:sam.c.deinum@gmail.com" class="black-text">sam.c.deinum@gmail.com</a>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- footer -->
+      <footer class="page-footer grey darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5>About Me</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="mailto: sam.c.deinum@gmail.com">Email</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/samuel-deinum" target="_blank">Github</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/samuel-deinum/" target="_blank">Linked In</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/sam.deinum" target="_blank">Facebook</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2019 Samuel Deinum</div>
+          </div>
+        </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $(".sidenav").sidenav();
+          $(".materialboxed").materialbox();
+          $(".parallax").parallax();
+          $(".tabs").tabs();
+        });
+      </script>
+  </body>
+</html>
