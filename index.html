@@ -28,20 +28,34 @@
         background-position: right;
         min-height: 700px;
       }
+      .tabs .indicator{
+      background-color: #1a237e;
+      }
+      .tabs .tab a:focus, .tabs .tab a:focus.active{
+        background: transparent;
+      }
+      .parallax-container{
+        height: 300px;
+      }
+
+      .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+        color: green;
+        margin-right: 24px;
+        -webkit-transition: color .3s ease;
+        transition: color .3s ease;
+        text-transform: uppercase;
+      }
       @media screen and (max-width: 670px) {
         header {
           min-height: 500px;
         }
+        .card p {
+          height: auto;
+        }
       }
-      .tabs .indicator{
-      background-color: #1a237e;
-    }
-    .tabs .tab a:focus, .tabs .tab a:focus.active{
-      background: transparent;
-    }
-    .parallax-container{
-      height: 300px;
-    }
+
+
+
     </style>
   </head>
   <body>
@@ -75,7 +89,7 @@
             </div>
             <div class="col s12 m6">        
               <p >
-                I'm Sam. I am an over achieving problem solver who happens to code. I hope you enjoy the projects you see.
+                I'm Sam. I am a big dreamer and I love coding. I hope you enjoy the projects you see.
                 Shoot me an email if you would like to connect. 
               </p>
             </div>
@@ -272,7 +286,7 @@
               <div class="card">
                 <div class="card-content">
                   <span class="card-title">SDFSS</span>
-                  <p style="height: 100px">
+                  <p style="height: 100px; overflow: hidden;">
                     The Smart Duel Fuel Switching System was created for my 2019 Capstone Project at Ryerson University. 
                     Using time of use electricity prices and the curent weather temperature, the program determines the 
                     best heating system to use at a particular time.  
@@ -322,13 +336,13 @@
       
 
 
-      <div class="container section" style="height: 150px" id="contact">
+      <div class="container section" style="height: 170px" id="contact">
         <div class="row">
           <div class="col s12 offset-s0 l6 offset-l3">
-              <div class="card #18ffff cyan accent-2">
+              <div class="card green darken-3 white-text">
                   <div class="card-title center">Like what you see? </div>
                   <div class="card-content center">
-                    Send an email to <a href="mailto:sam.c.deinum@gmail.com" class="black-text">sam.c.deinum@gmail.com</a>
+                    Send an email to <a href="mailto:sam.c.deinum@gmail.com" class="white-text">sam.c.deinum@gmail.com</a>
                   </div>
                 </div>
           </div>
@@ -343,7 +357,7 @@
                 <h5>About Me</h5>
                 <p>
                   I have recently graduated with a B.A. in Mechanical Engineering.  Towards the 
-                  end of my degree, I discovered how fun coding is and how it could be used to benefit
+                  end of my degree, I discovered how much fun coding is and how it could be used to benefit
                   many people.  I am seeking employment where my engineering and software skills can be 
                   put to work. 
                 </p>
